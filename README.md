@@ -62,24 +62,7 @@ The Projects section holds a local `activeFilter` state. Clicking a filter tab u
 
 ---
 
-## 🚀 Getting Started
-
-```bash
-# Install dependencies
-npm install
-
-# Start the dev server
-npm run dev
-```
-
-Live at **http://localhost:5173**
-
-```bash
-# Build for production
-npm run build
-```
-
----
+##Live at :https://pathitharunnaidu.netlify.app/
 
 ## 📁 Project Structure
 
