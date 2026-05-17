@@ -26,11 +26,26 @@ const PROJECTS = [
       </svg>
     ),
     title: 'profile website',
-    tag: 'web',
+    tag: 'Web',
     tagClass: 'tag-web',
     desc: 'Created a responsive React-based portfolio website to present projects and profile professionally.',
     tech: ['React.js', 'vite', 'css',],
     github: 'https://github.com/Pathitharun/myprofile',
+  },
+  {
+    id: 3,
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" style={{ width: '28px', height: '28px', color: '#818cf8' }}>
+        <path d="M12 2a4 4 0 0 1 4 4c0 .34-.04.67-.1 1H16a3 3 0 0 1 3 3v1a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2v1a3 3 0 0 1-3 3H8a3 3 0 0 1-3-3v-1a2 2 0 0 1-2-2v-2a2 2 0 0 1 2-2v-1a3 3 0 0 1 3-3h.1A4.02 4.02 0 0 1 8 6a4 4 0 0 1 4-4z" />
+        <path d="M9 12h.01M15 12h.01M9.5 16a5 5 0 0 0 5 0" />
+      </svg>
+    ),
+    title: 'Hardware-monitor',
+    tag: 'Tools',
+    tagClass: 'tag-Tools',
+    desc: ' real-time system performance monitoring desktop app',
+    tech: ['Electron', 'React.js', 'vite', 'typescript'],
+    github: 'https://github.com/Pathitharun/Hardware-monitor',
   },
 ]
 
@@ -90,7 +105,7 @@ export default function Projects() {
         {/* Cards */}
         <div className="projects-grid">
           {filtered.map((p, i) => (
-            <div key={p.id} className={`project-card reveal reveal-delay-${(i % 3) + 1}`}>
+            <div key={p.id} className="project-card">
               <div className="project-header">
                 <div className="project-icon">{p.icon}</div>
                 <span className={`project-tag ${p.tagClass}`}>{p.tag}</span>

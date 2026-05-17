@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 
-const ROLES = ['AI Developer', 'Python Engineer', 'Data Science Student', 'Full-Stack Dev']
+const ROLES = ['Cloud Computing Engineer', 'Python Engineer', 'Data Science Student', 'Full-Stack Dev', 'AI Developer']
 
 function ParticleCanvas() {
   const canvasRef = useRef(null)
