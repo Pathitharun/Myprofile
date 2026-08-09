@@ -2,7 +2,7 @@ import React from 'react'
 import { useReveal } from '../hooks/useReveal'
 
 const stats = [
-  { number: '2', label: 'Projects Built' },
+  { number: '3', label: 'Projects Built' },
   { number: '3+', label: 'Tech Stacks' },
   { number: '∞', label: 'Ideas in Queue' },
   { number: '100%', label: 'Passion-Driven' },
