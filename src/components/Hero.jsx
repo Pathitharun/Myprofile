@@ -172,19 +172,7 @@ export default function Hero() {
 
         {/* Visual */}
         <div className="hero-visual">
-          <div className="avatar-container">
-            <div className="avatar-ring" />
-            <div className="avatar-ring-2" />
-            <div className="avatar-glow" />
-            <div className="avatar-svg-wrap">
-              <AbstractAvatar />
-            </div>
-            <div className="floating-badges">
-              <div className="float-badge">🧠 AI / ML</div>
-              <div className="float-badge">⚡ FastAPI</div>
-              <div className="float-badge">⚛️ React</div>
-            </div>
-          </div>
+          <img src="/1770962439514.png" alt="Pathi Tarun" />
         </div>
       </div>
 
