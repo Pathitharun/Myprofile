@@ -1083,8 +1083,22 @@ footer span {
     display: none;
   }
 
+  .navbar-inner {
+    flex-direction: row;
+  }
+
+  .nav-logo {
+    display: none;
+  }
+
   .hamburger {
     display: flex;
+    order: -1;
+  }
+
+  .nav-resume-btn {
+    order: 1;
+    display: block !important;
   }
 
   .nav-links.open {
